@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  
+}
+.roomParent{
+    max-width: 100%;
+    background-color: white;
+}
+.notebox{
+    border: 1px solid silver;
+    height: 80px;
+    width:100%;
+    margin-bottom: 80px;
+    padding: 20px 0 20px 10px;
+    
+
+}
+.room_list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.room_list_details{
+    
+    margin:10px;
+
+}
+.main{
+    margin:0;
+    
+}
+.modalContent{
+  height:1000px;
+  width:1260px;
+  background-color: white;
+  position: relative;
+  margin:100px auto;
+ display:flex;
+ flex-direction:column;
+align-items: center;
+border-radius: 5px;
+}
+li{
+  list-style: none;
+}
+/*
+.slider {
+   position: relative;
+   height:50vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+    margin: 100px;
+  }
+
+  .image{
+      width:500px;
+      height:300px;
+      border-radius: 5px;
+      background-color: black;
+  }
+  .rightArrow{
+      position:absolute;
+      top:50%;
+      right:32px;
+      font-size: 3rem;
+      color:#000;
+      z-index: 10;
+      cursor:pointer;
+      user-select: none;
+      background-color: white;
+  }
+  .leftArrow{
+    position:absolute;
+    top:50%;
+    left:32px;
+    font-size: 3rem;
+    color:#000;
+    z-index: 10;
+      cursor:pointer;
+      user-select: none;
+      background-color: white;
+}
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+   
+  } */
+
+.images{
+  height:100%; 
+  /* position:absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);  ORRRR */
+}
+.imageContainer{
+  height:100%;
+  
+ 
+}
+
+.sliderContent{
+  position: relative;
+   height:464px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(14, 13, 13);
+   width:1180px;
+   margin-top: 150px;
+  
+}
+
+.leftArrow{
+  position:absolute;
+  background-color: white;
+  top:50%;
+  left:2px;
+  cursor:pointer;
+  
+}
+.rightArrow{
+  position:absolute;
+  background-color: white;
+  top:50%;
+  right:1px;
+}
+.text{
+  color:white;  
+}
+.textPopup{
+  position: absolute;
+  left:0px;
+  bottom:0px;
+  background-color:rgba(255,255,255,.8);
+  width:100%;
+  display:flex;
+  height:90px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.headersection{
+  position:absolute;
+  left:50px;
+  margin-top: 20px;
+}
+
+
+.sample{
+  background-color: cadetblue;
+  width:100%;
+  margin:0;
+}
+
+.popup{
+  position:absolute;
+  bottom:30px;
+  /* background-color:black; */
+  left:20px;
+}
+.topleftArrow{
+  
+  position:absolute;
+  right:150px;
+  top:43px;
+  cursor: pointer;
+}
+.toprightArrow{
+  
+  position:absolute;
+  right:125px;
+  top:43px;
+  cursor: pointer;
+}
+.topclose{
+  position:absolute;
+  right:50px;
+  top:43px;
+}
+.headercounter{
+  position:absolute;
+  right:200px;
+  top:47px;
+  font-size: medium;
+}
+.roomOuterText{
+  display: inline;
+ 
+}
+.roomSpan{
+  position:absolute;
+  right:50px;
+  font-weight: bold;
+  top:500px;
+}
+.outersection{
+  position:absolute;
+  left:0;
+  
+}
+
+.accordiondetails {
+  width: 100%;
+  position:absolute;
+  bottom:260px;
+  
+}

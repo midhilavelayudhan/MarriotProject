@@ -1,0 +1,693 @@
+.localsection1{
+    width:100%;
+}
+.localsection1 h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: -.2px;
+    text-align: center;
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    color: #1c1c1c;
+}
+.localsection1 img{
+    width: 1030px;
+    height: 412px;
+    margin-left: 250px;
+}
+.localsection2{
+    width: 100%;
+    margin-top: 110px;
+}
+.localsection2 h2{
+    text-align: center;
+    font-family:Arial,sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.localsection21{
+    display: flex;
+    margin-left: 250px;
+}
+.localsection21left{
+    width:40.2%
+}
+.localsection21right{
+    margin-top: 10px;
+}
+.localsection21leftp1{
+    font-weight: 600;
+    font-size: 1.08rem;
+    color: #1c1c1c;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+}
+.localsection21leftp2{
+    font-size: .87rem;
+    margin-top: -10px;
+}
+.checkdot1 {
+    height: 19px;
+    width: 19px;
+    background-color: #2f4256;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+.checkdot2 {
+    height: 17px;
+    width: 17px;
+    background-color: #ffffff;
+    border: 1px solid #b4b4b4; 
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  } 
+  .checkdotp{
+      position:relative;
+      top:-9px;
+      font-size: 12px;
+      margin-left: 4px;
+      font-weight: 100;
+  }
+.direction{
+    width: 510px;
+    height: 46px;
+    margin-top: 3px;
+    box-sizing: border-box;
+    padding: .9rem 3rem .9rem 1.25rem;
+    border: .0625rem solid #d2d2d2;
+    border-radius: .25rem;
+    font-family: proxima-no;
+}
+.directionbtn{
+    background-color: #2f4256;
+  border-color: #2f4256;
+  color: #fff;
+    font-weight: 600;
+    margin-top: 16PX;
+    font-size: .9rem;
+    font-family: Swiss-721,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 154px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 47px;
+    border: .0625rem solid black;
+    letter-spacing: .5px;
+}
+.localsection3 h2{
+    text-align: center;
+    font-family:Arial,sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-top: 80px;
+}
+.localsection31{
+    display: flex;
+    margin-left: 250px;
+}
+.localsection31p1{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: rgb(61, 61, 61);
+}
+.localsection31p2{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: rgb(61, 61, 61);
+    margin-left: 42px;
+}
+.localsection31p3{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: rgb(61, 61, 61);
+    margin-left: 112px;
+}
+.localsection32{
+    background: #f4f4f4;
+    width: 100%;
+    height: 143px;
+}
+.localsection32 img{
+    margin-left: 395px;
+    margin-top: 27px;
+
+}
+.localattractions h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.localattractionsmain{
+    margin-left: 250px;
+    display: flex;
+}
+.localattractions2{
+    margin-left: 90px;
+}
+.localattractions3{
+    margin-left: 190px;
+    margin-top: 6px;
+}
+.localattractions3c1{
+font-size:13.4px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+}
+.localattractions3c2{
+    font-size:13.4px;
+    margin-top:6px;
+    color:#007576;
+}
+.localattractions3c3{
+    font-size:13.4px;
+    margin-top:-12px;
+    color:#1c1c1c;
+}
+.fitness h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.fitness1{
+    margin-left: 250px;
+}
+.fitnessp1{
+font-size:13.4px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 350px;
+margin-top: -9px;
+}
+.fitnessp2{
+    font-size:13.4px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 320px;
+    margin-top: -1px;
+}
+.spa h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.spa1{
+    display: flex;
+    margin-left: 250px;
+}
+.spa1leftp1{
+font-size:13.4px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 320px;
+margin-top: -9px;
+}
+.spa1leftp2{
+    font-size:13.4px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 320px;
+    margin-top: 0px;
+    }
+.spa1leftp3{
+        font-size:13.6px;
+        font-weight: 600;
+        font-family: proxima-nova,Helvetica,Arial,sans-serif;
+        color: #474747;
+        width: 320px;
+        margin-top: 0px;
+}
+.spa1leftp4{
+    font-size:13.2px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #313131;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.golf h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.golfp1{
+    font-size:13.4px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 240px;
+margin-top: 6px;
+line-height: 17.5px;
+}
+.golf1{
+    display: flex;
+    margin-left: 250px;
+}
+.golf12{
+    margin-left: 105px;
+}
+.golf13{
+    margin-left: 105px;
+}
+.golf14{
+    margin-left: 250px;
+}
+.area h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.area1{
+    display: flex;
+    margin-left: 250px;
+}
+.area12{
+    margin-left: 102px;
+}
+.localpartners h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.localpartners1{
+    display: flex;
+    margin-left: 250px;
+}
+.localpartners12{
+    margin-left: 100px;
+}
+.activity h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.activity1{
+    display: flex;
+    margin-left: 250px;   
+}
+.activity12{
+margin-left: 100px;
+}
+.activity13{
+    margin-left: 110px;
+    }
+
+.family h2{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 501;
+  text-align: center;
+  font-size: 1.69rem;
+  margin-top: 50px;
+}    
+.family1{
+    display: flex;
+    margin-left: 235px;
+}
+.familyp1{
+    font-weight: 600;
+    font-size: 1.08rem;
+    color: #1c1c1c;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+}
+.familyp2{
+font-size:13.4px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 320px;
+margin-top: 6px;
+line-height: 17.5px;
+}
+.family12{
+    margin-left: 60px;
+}
+.family13{
+    margin-left: 170px;
+}
+@media only screen and (max-width: 450px) {
+    .localsection1 h1{
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: .3px;
+    }
+    .localsection1 img{
+        width: 300px;
+        height: 122px;
+        margin-left: 20px;
+    }
+    .localsection2{
+        width: 100%;
+        margin-top: 38px;
+    }
+    .localsection2 h2{
+        text-align: center;
+        font-family:Arial,sans-serif;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    .localsection21{
+        display: contents;
+        margin-left: 50px;
+    }
+    .localsection21left{
+        width:100%;
+        margin-left: 20px;
+    }
+    .direction{
+        width: 310px;
+        height: 50px;
+        margin-top: 3px;
+        margin-left: 15px;
+        box-sizing: border-box;
+        padding: .9rem 3rem .9rem 1.25rem;
+        border: .0625rem solid #d2d2d2;
+        border-radius: .25rem;
+        font-family: proxima-no;
+    }
+    .directionbtn{
+        background-color: #2f4256;
+      border-color: #2f4256;
+      color: #fff;
+        font-weight: 600;
+        margin-left: 15px;
+        margin-top: 16PX;
+        font-size: .94rem;
+        font-family: Swiss-721,Helvetica,Arial,sans-serif;
+        letter-spacing: .5px;
+        cursor: pointer;
+        display: inline-block;
+        width: 310px;
+        text-align: center;
+        text-transform: uppercase;
+        height: 49px;
+        border: .0625rem solid black;
+        letter-spacing: .5px;
+    }
+    .label1{
+        margin-left: 15px;
+    }
+    .localsection3 h2{
+        text-align: center;
+        font-family:Arial,sans-serif;
+        font-weight: 500;
+        font-size: 1.35rem;
+        margin-top: 60px;
+    }
+    .localsection31{
+        display: contents;
+        margin-left: 0px;
+    }
+    .localsection31p1{
+        font-size: 13.7px;
+        font-weight: 600;
+        font-family: proxima-nova,Helvetica,Arial,sans-serif;
+        color: rgb(61, 61, 61);
+        margin-left: 17px;
+        width: 270px;
+    }
+    .localsection31p2{
+        font-size: 13.7px;
+        font-weight: 600;
+        font-family: proxima-nova,Helvetica,Arial,sans-serif;
+        color: rgb(61, 61, 61);
+        margin-left: 17px;
+        margin-top: 20px;
+    }
+    .localsection31p3{
+        font-size: 13.7px;
+        font-weight: 600;
+        font-family: proxima-nova,Helvetica,Arial,sans-serif;
+        color: rgb(61, 61, 61);
+        margin-left: 17px;
+        margin-top: 20px;
+        width: 270px;
+    }
+    .localsection32{
+        display: none;
+    }
+    .localattractionsmain{
+        margin-left: 0px;
+        display: contents;
+    }
+    .localattractions1{
+        margin-left: 20px;
+    }
+    .localattractions2{
+        margin-left: 20px;
+    }
+    .localattractions3{
+        margin-left: 20px;
+    }
+    .localattractions3c1{
+        font-size:14.6px;
+        font-weight: 500;
+        font-family: proxima-nova,Helvetica,Arial,sans-serif;
+        color: #1c1c1c;
+        }
+        .localattractions3c2{
+            font-size:14.2px;
+            margin-top:6px;
+            color:#007576;
+        }
+        .localattractions3c3{
+            font-size:14.2px;
+            margin-top:-12px;
+            color:#1c1c1c;
+        }
+        .localattractions h2{
+            font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+            font-weight: 501;
+            text-align: center;
+            font-size: 1.3rem;
+            margin-top: 50px;
+        }
+        .fitness h2{
+            font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+            font-weight: 501;
+            text-align: center;
+            font-size: 1.29rem;
+            margin-top: 36px;
+        }
+        .fitness1{
+            margin-left: 20px;
+        }
+        .fitnessp1{
+        font-size:14px;
+        font-weight: 500;
+        font-family: proxima-nova,Helvetica,Arial,sans-serif;
+        color: #1c1c1c;
+        width: 294px;
+        margin-top: -9px;
+        }
+        .fitnessp2{
+            font-size:14.2px;
+            font-weight: 500;
+            font-family: proxima-nova,Helvetica,Arial,sans-serif;
+            color: #1c1c1c;
+            width: 290px;
+            margin-top: -1px;
+        }
+
+.spa h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 50px;
+}
+.spa1{
+    display: contents;
+    margin-left: 20px;
+}
+.spa1left{
+    margin-left: 18px;
+}
+.spa1right{
+    margin-left: 20px;
+    margin-top: 48px;
+}
+.spa1leftp1{
+font-size:14.6px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 293px;
+line-height: 20px;
+margin-top: -9px;
+}
+.spa1leftp2{
+    font-size:14.6px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 320px;
+    line-height: 20px;
+    margin-top: 0px;
+    }
+.spa1leftp3{
+        font-size:14.6px;
+        font-weight: 600;
+        font-family: proxima-nova,Helvetica,Arial,sans-serif;
+        color: #474747;
+        width: 320px;
+        margin-top: 0px;
+}
+.spa1leftp4{
+    font-size:14.6px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #313131;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.golf h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 40px;
+}
+.golfp1{
+font-size:14.6px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 260px;
+margin-top: 6px;
+line-height: 17.5px;
+}
+.golf1{
+    display: contents;
+}
+.golf11{
+    margin-left: 20px;
+}
+.golf12{
+    margin-left: 20px;
+    margin-top: 42px;
+}
+.golf13{
+    margin-left: 20px;
+    margin-top: 42px;
+}
+.golf14{
+    margin-left: 20px;
+    margin-top: 42px;
+}
+.area h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 40px;
+}
+.area1{
+    display: contents;
+}
+.area11{
+    margin-left: 20px;
+}
+.area12{
+    margin-left: 20px;
+    margin-top: 42px;
+    
+}
+.localpartners h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 50px;
+}
+.localpartners1{
+    display: contents;
+}
+.localpartners12{
+    margin-left: 20px;
+}
+.localpartners11{
+    margin-left: 20px;
+}
+.activity h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 40px;
+}
+.activity1{
+    display: contents;  
+}
+.activity11{
+    margin-left: 20px;
+    }
+.activity12{
+margin-left: 20px;
+}
+.activity13{
+    margin-left: 20px;
+}
+.family h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.33rem;
+    margin-top: 40px;
+  }    
+  .family1{
+      display: contents;
+  }
+  .familyp1{
+      font-weight: 600;
+      width: 300px;
+      font-size: 1.08rem;
+      color: #1c1c1c;
+      font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  }
+  .familyp2{
+  font-size:14.8px;
+  font-weight: 500;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  color: #1c1c1c;
+  width: 300px;
+  margin-top: 7px;
+  line-height: 18.6px;
+  }
+  .family11{
+      margin-left: 20px;
+  }
+  .family12{
+      margin-left: 20px;
+  }
+  .family13{
+      margin-left: 20px;
+  }
+
+       
+}
+

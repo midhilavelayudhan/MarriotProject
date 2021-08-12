@@ -1,0 +1,948 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css"; 
+
+.Threed {
+  width: 100%;
+  height: 545px;
+  margin-top: 100px;
+}
+
+.slide img {
+  width: 82rem;
+  height: 500px;
+  margin: 0 auto;
+  margin-left: 4px;
+}
+
+.slide {
+  transition: transform 300ms;
+  opacity: 1;
+}
+
+.activeSlide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 60%;
+}
+
+.prev {
+  left: 0%;
+  top: 60%;
+}
+.threedtitle1{
+  display: none;
+}
+.finaltitle1{
+  display: none;
+}
+.finalpara1{
+  display: none;
+}
+.finalb1{
+  display: none;
+}
+.finallast1{
+  display: none;
+}
+
+.question {
+  padding: 12px 17px;
+  border: 2px solid var(--clr-grey-special);
+  margin-bottom: 10px;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  background-color: rgb(247, 243, 250);
+  clear:left;
+
+}
+
+
+.question p {
+  color: var(--clr-grey-3);
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.question header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question header h6 {
+  font-weight: bold;
+}
+.qbtn {
+  background: transparent;
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  background: var(--clr-grey-special);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--clr-red-special);
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+
+.Overviewbody1{
+  display: flex;
+}
+.Overview1{
+width: 900px;
+margin-left: auto;
+  
+}
+.Overview2{
+  width: 300px;
+  margin-right: auto;
+}
+.Overview2 img{
+  width: 290px;
+  margin-right: auto;
+  
+}
+.overviewhead{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  width:680px;
+}
+.Showmorebtn{
+  color:#0f807f;
+  font-weight:700;
+  cursor: pointer;
+  font-size: .91rem;
+
+}
+
+.Overviewp1{
+  font-weight: 490;
+  font-size: 1rem;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  width: 788px;
+  color: #292929;
+  line-height: 1.25;
+}
+
+.reviewsection1{
+  margin-left: 160px;
+  display: flex; 
+}
+.reviewsectionhead{
+  text-align:center;
+  font-size:xx-large;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #0f807f;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.wrapper{
+  width: 23px; 
+  height: 23px;
+  border-radius: 50%;
+  border: 1px solid #00acac; 
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.one{
+  display: inline-block;
+  background-image: linear-gradient(-270deg,#0f807f 100%,transparent 0);
+  height: 23px; width:12px;
+  border-right: 2px solid #0f807f ;
+}
+
+.two{
+  display: inline-block;
+  background-color: white;
+  height: 20px; width:13px;
+}
+.rate{
+  position: relative;
+  bottom: 20px;
+  left: 4px;
+
+}
+.reviewright{
+  margin-left: 348px;
+  font-weight: 500;
+  font-size: .899rem;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  position: relative;
+  bottom: 7px;
+}
+.reveiwsection2{
+ margin-left: 165px;
+ bottom: 40px;
+ position: relative;
+ font-size: 15px;
+ margin-top: 6px;
+ font-weight: 600;
+ display: flex;
+}
+
+.dot2 {
+  height: 9px;
+  width: 9px;
+  background-color: #0f807f;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.wrapper2{
+  width: 8px; 
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #0f807f; 
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.one2{
+  display: inline-block;
+  background-image: linear-gradient(-270deg,#0f807f 100%,transparent 0);
+  height: 20px; width:5px;
+  margin-right: 2px;
+  border-right: 1px solid #ffffff ;
+}
+
+.two3{
+  display: inline-block;
+  background-color: white;
+  height: 10px; width:8px;
+}
+.reveiwsection22{
+  margin-left: 200px;
+}
+.rate2{
+  position: relative;
+  top: -17px;
+  font-size: small;
+  margin-left: 2px;
+}
+.marriot{
+  width: 1205px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f4f4;
+  display: flex;
+}
+.marriot img{
+  width: 139px;
+}
+
+.marriot1{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.marriot2 h3{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  bottom: 70px;
+  position: relative;
+  bottom: -20px;
+}
+.marriot2{
+  margin-left: 60px;
+}
+.marriot2 p{
+  position: relative;
+  bottom: 6px;
+
+}
+
+.marriot3{
+  margin-left: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.marriot4{
+  background:#0f807f;
+  height:5px;
+  width:1205px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+
+
+.marriotbtn{
+  background-color: #444054;
+  border-color: #444054;
+  color: #fff;
+    font-weight: 600;
+    font-size: .9rem;
+    font-family: Swiss-721,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 136px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 42px;
+}
+.key1{
+  text-align: center;
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 400;
+}
+.marriotlast{
+  background-color: #f4f4f4;
+  height: 124px;
+  margin-top: 48px;
+
+}
+.marriotlast img{
+  margin-left:400px;
+  margin-top: 20px;
+}
+.highlights{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.highlightsline{
+  background:grey;
+  height:.5px;
+  width:1215px;
+  margin-left:160px;
+  margin-top:46px;
+}
+.highlights11{
+  display:flex;
+  margin-left:139px;
+}
+.highlights1{
+  font-weight: 600;
+  font-size: .9rem;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  color: #252525;
+  width: 370px;
+  margin-left: 21px;
+}
+.Overviewfinal1{
+  font-size: 1.21rem;
+  font-weight: 500;
+  margin-left: 940px;
+  margin-top: 60px;
+}
+.key11mobile{
+  display: none;
+}
+.key11mobile11{
+  display: none;
+}
+.guestrooms{
+  background-color: #f4f4f4;
+  height: 633px;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 46px;
+}
+.guestroomshead{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 2rem;
+}
+.guestroomsp{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: -12px;
+}
+.guestroomcard11{
+  width:378px;
+  height:364px;
+  margin-left:20px
+}
+.Cardhead{
+  font-size: 1.3rem;
+  color: #000000;
+  font-weight: 500;
+  position: relative;
+  top: -24px;
+}
+.Cardpara{
+  font-size: 16px;
+  position: relative;
+  top: -34px;
+}
+.Cardbtn{
+  background-color: #2f4256;
+  border-color: #2f4256;
+  color: #fff;
+    font-weight: 600;
+    font-size: .9rem;
+    font-family: Swiss-721,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 134px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 44px;
+    border: .0625rem solid transparent;
+    letter-spacing: .5px;
+  position: relative;
+  top: -32px;
+}
+.guestCards{
+  margin-left: 158px;
+  display: flex;
+  margin-top: 30px;
+}
+.guestroomsbottombtn{
+  height: 46px;
+  width: 210px;
+  font-weight: 600;
+  font-size: .9rem;
+  font-family: Swiss-721,Helvetica,Arial,sans-serif;
+  line-height: 1.15;
+  min-width: 8rem;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .1px;
+  cursor: pointer;
+  color: #2f4256;
+  background-color: rgb(245, 245, 245);
+  border:solid 1px;
+}
+.guestroomsbottombtn:hover{
+  background-color: #2f4256;
+  color: #fff;
+}
+.promotions{
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 900px;
+  padding-top: 30px;
+}
+.promotionshead{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.83rem;
+}
+.promotionscards{
+display:flex;
+margin-left:167px;
+}
+.secondcard{
+width:378px;
+height:430px;
+margin-left:20px
+}
+.Card2para{
+  font-size: 16px;
+  font-weight:lighter;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  line-height: 1.25;
+  color: #616161;
+  position: relative;
+  top: -34px;
+  
+}
+.keybtn1{
+  height: 46px;
+  width: 180px;
+  position: relative;
+  left: 1109px;
+  bottom:108px;
+  font-weight: 600;
+  font-size: .9rem;
+  font-family: Swiss-721,Helvetica,Arial,sans-serif;
+  line-height: 1.15;
+  min-width: 8rem;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .1px;
+  cursor: pointer;
+  color: #2f4256;
+  background-color: #fcfcfc;
+  border:solid 1px;
+}
+.keybtn2{
+  height: 46px;
+  position: relative;
+  bottom:46px;
+  left: 930px;
+  width: 180px;
+  font-weight: 600;
+  font-size: .9rem;
+  font-family: Swiss-721,Helvetica,Arial,sans-serif;
+  line-height: 1.15;
+  min-width: 8rem;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .1px;
+  cursor: pointer;
+  color: #2f4256;
+  background-color: #fcfcfc;
+  border:solid 1px;
+}
+.overviewfinalimg{
+  display: none;
+}
+
+
+
+body{
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+}
+@media only screen and (max-width: 450px) {
+  .overviewfinalimg{
+    width:280px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: block;
+  }
+  .overviewfinalimg1{
+    display: none;
+  }
+  .arrow{
+    display: none;
+  }
+  .Threed {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+  }
+  
+  .slide img {
+    width: 22.9rem;
+    height: 160px;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    transition: transform 300ms;
+    opacity: 1;
+  }
+  
+.activeSlide {
+    transform: scale(1);
+    opacity: 1;
+    
+  }
+
+.Overview1{
+  width: 400px;
+  margin-left: auto;
+      
+}
+.Overview2{
+  width: 300px;
+  margin-right: auto;
+}
+.Overview2 img{
+  width: 290px;
+  margin-right: auto;
+}
+.overviewhead{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-left: 18px;
+  width: 318px;
+  color: #000000;
+}
+.Overviewbody1{
+  display: block;
+}
+.Rewards{
+  width: 160px;
+  margin-left:20px;
+}
+.Overviewp1{
+  font-weight: 490;
+  font-size: .95rem;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  width: 315px;
+  color: #292929;
+  line-height: 1.25;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+.Showmorebtn{
+  color:#0f807f;
+  font-weight:700;
+  margin-left: 20px;
+}
+.Overview2{
+  width: 300px;
+  margin-top: 77px;
+}
+.Overview2 img{
+  width: 290px;
+  margin-left: 25px;
+  
+}
+.reviewsectionhead{
+  text-align:center;
+  font-size:1.4rem;
+  margin-top: 60px;
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+}
+.reviewsection1{
+  display: contents;
+ 
+}
+.dot {
+  height: 23px;
+  width: 22px;
+  background-color: #0f807f;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.wrapper{
+  width: 21px; 
+  height: 21px;
+  border-radius: 50%;
+  border: 1px solid #00acac; 
+  overflow: hidden;
+  margin-left: 6px;
+}
+
+.one{
+  display: inline-block;
+  background-image: linear-gradient(-270deg,#0f807f 100%,transparent 0);
+  height: 23px; width:11px;
+  border-right: 2px solid #0f807f ;
+}
+.two{
+  display: inline-block;
+  background-color: white;
+  height: 10px; width:10px;
+}
+.rate{
+  position: relative;
+  bottom: 20px;
+  left: 4px;
+
+}
+.reviewsectionmain{
+  margin-left: 15px;
+}
+.reveiwsection2{
+  margin-left: 22px;
+  bottom: 140px;
+  position: relative;
+  font-size: 15px;
+  margin-top: 26px;
+  font-weight: 600;
+  display: flex;
+ }
+ .reveiwsection22{
+  margin-left: 71px;
+}
+.reviewright{
+  font-weight: 300;
+  font-size: .94rem;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+position: relative;
+display: contents;
+}
+.reviewhear{
+margin-top: 48px;
+margin-left: 20px;
+width: 296px;
+line-height: 19px;
+color: rgb(43, 43, 43);
+}
+.marriot{
+  width: 370px;
+  height: 316px;
+  background-color: #f4f4f4;
+  display: block;
+}
+.marriot img{
+  width: 286px;
+  margin-left: 30px;
+  margin-top: 9px;
+}
+.marriot2 p{
+  position: relative;
+  bottom: 21px;
+  font-size: 15px;
+  width: 230px;
+  color: #464646;
+
+}
+
+.marriot3{
+  margin-left:42px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.marriot2 h3{
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #353535;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  position: relative;
+  bottom: 6px;
+}
+.marriot2{
+  margin-left: 45px;
+}
+.marriotbtn{
+  background-color: #444054;
+  border-color: #444054;
+  color: #fff;
+    font-weight: 600;
+    font-size: .89rem;
+    font-family: Swiss-721,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 128px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 49px;
+}
+.marriot4{
+  background:#0f807f;
+  height:4px;
+  width:312px;
+  margin-left: 14px;
+  margin-top: 7px;
+}
+.key1{
+  text-align: center;
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 35px;
+}
+.highlights{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 45px;
+  position: relative;
+  top: 20px;
+  font-size: 22px;
+}
+.highlights11{
+  display:block;
+  margin-left:2px;
+}
+.highlights1{
+  font-weight: 500;
+  margin-top: 50px;
+  font-size: .94rem;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  color: #000000;
+  width: 295px;
+  margin-left: 21px;
+}
+.highlightsline{
+  background:rgb(207, 207, 207);
+  height:1.3px;
+  width:330px;
+  margin-left:15px;
+  margin-top:62px;
+}
+.marriotlast{
+  display: none;
+}
+.key11{
+  display: none;
+}
+.key11mobile{
+  display: flex;
+}
+.key11mobile11{
+  display: contents;
+ 
+}
+.keybtnmobile1{
+    height: 45px;
+    margin-top: 36px;
+    margin-left: 80px;
+    width: 200px;
+    position: relative;
+    font-weight: 600;
+    font-size: .9rem;
+    font-family: Swiss-721,Helvetica,Arial,sans-serif;
+    line-height: 1.15;
+    min-width: 8rem;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .1px;
+    cursor: pointer;
+    color: #2f4256;
+    background-color: #fcfcfc;
+    border:solid 1px;
+}
+.keybtnmobile2{
+  height: 45px;
+  margin-left: 80px;
+  margin-top: 16px;
+  width: 200px;;
+  font-weight: 600;
+  font-size: .9rem;
+  font-family: Swiss-721,Helvetica,Arial,sans-serif;
+  line-height: 1.15;
+  min-width: 8rem;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .1px;
+  cursor: pointer;
+  color: #2f4256;
+  background-color: #fcfcfc;
+  border:solid 1px;
+}
+.Overviewfinal1{
+  font-size: 1.21rem;
+  font-weight: 500;
+  margin-left: 90px;
+  margin-top: 86px;
+}
+.guestrooms{
+  background-color: #f4f4f4;
+  height: 633px;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 43px;
+  width: 342px;
+}
+
+.guestroomshead{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.guestroomsp{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.32rem;
+  margin-top: 10px;
+}
+.guestCards{
+  margin-left: 15px;
+  display: flex;
+  margin-top: 30px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.guestCards::-webkit-scrollbar {
+  height: 3px; 
+}
+
+/* Track */
+.guestCards::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  margin-right: 20px
+ 
+}
+/* Handle */
+.guestCards::-webkit-scrollbar-thumb {
+  background: rgb(90, 90, 90); 
+  width: 170px;
+
+}
+/* Handle on hover */
+.guestCards::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.guestroomcard11{
+  width:310px;
+  height:364px;
+  margin-left:0px;
+  margin-right: 18px;
+}
+.guestroomsbottombtn{
+  height: 52px;
+  font-style: inherit;
+  font-size :14px;
+  margin-left: -15px;
+  background-color: rgb(245, 245, 245);
+}
+.promotions{
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 900px;
+  padding-top: 30px;
+}
+.promotionscards{
+  margin-right: 10px;
+  margin-left: 0px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.promotionscards::-webkit-scrollbar {
+  height: 3px; 
+}
+
+/* Track */
+.promotionscards::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  margin-right: 17px;
+  margin-left: 17px;
+}
+/* Handle */
+.promotionscards::-webkit-scrollbar-thumb {
+  background: rgb(90, 90, 90); 
+  width: 170px;
+
+}
+/* Handle on hover */
+.promotionscards::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+  
+.promotionshead{
+  font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.secondcard{
+  width:320px;
+  height:430px;
+  margin-left:16px
+  }
+
+
+
+
+}
+

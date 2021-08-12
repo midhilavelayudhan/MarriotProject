@@ -1,0 +1,298 @@
+.Mapsection h1{
+    font-size: 38px;
+    font-weight: 400;
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    text-align: center;
+}
+.Map1{
+    margin-left: 230px;
+}
+.iframe2{
+    display: none;
+}
+.drivindirection1 h2{
+    text-align: center;
+    font-family:Arial,sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.drivindirection11{
+    display: flex;
+    margin-left: 250px;
+}
+.airport h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+}
+.airportp1{
+    font-weight: 600;
+    font-size: 20px;
+    color: #383838;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+
+}
+.airportp2{
+font-size:13.4px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 470px;
+margin-top: -9px;
+line-height: 25px;
+}
+.airportp3{
+    font-weight: 600;
+    font-size: small;
+    margin-top: -2px;
+    
+}
+.airpotleftp4{
+    font-size:13.2px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #313131;
+    width: 430px;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.airportp5{
+    font-size:13.5px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 470px;
+    margin-top: -5px;
+    line-height: 18px;
+    }
+.airport1{
+    display: flex;
+    margin-left: 250px;
+}
+.airportright{
+margin-left: 60px;
+}    
+.parking h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+ } 
+ .parking1{
+     display: flex;
+     margin-left: 250px;
+     
+ }
+ .parking12{
+margin-left: 97px;
+ }
+ .parkingp1{
+    font-size:13.4px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 250px;
+    margin-top: -3px;
+    line-height: 25px;
+ }
+ .other1{
+     display: flex;
+     margin-left: 250px;
+ }
+ .other12{
+     margin-left: 150px;
+ }
+ .other h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.69rem;
+    margin-top: 50px;
+ }
+ .otherp2{
+    font-size:13.6px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 180px;
+    line-height: 19.1px;
+    margin-top: -9px;
+ }
+ .otherp3{
+    font-size:13.6px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 150px;
+    line-height: 19.1px;
+    margin-top: 2px;
+ }
+ .otherp4{
+    font-size:13.6px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 150px;
+    line-height: 19.1px;
+    margin-top: 2px;
+ }
+@media only screen and (max-width: 450px) {
+.Mapsection h1{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    text-align: center;
+}
+.Map1{
+    margin-left: 20px;
+}
+.iframe1{
+    display: none;
+}
+.iframe2{
+    display: block;
+}
+.drivindirection1 h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 13px;
+}
+.drivindirection11{
+    display: contents;
+    margin-left: 20px;
+}
+.airport h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 50px;
+}
+.airport1{
+    display: contents;
+}
+.airportleft{
+    margin-left: 20px;
+}
+.airportright{
+    margin-left: 20px;
+    margin-top: 46px;
+}
+.airportp1{
+    font-weight: 600;
+    font-size: 17px;
+    color: #383838;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    margin-top:18px;
+
+}
+.airportp2{
+font-size:14.8px;
+font-weight: 500;
+font-family: proxima-nova,Helvetica,Arial,sans-serif;
+color: #1c1c1c;
+width: 470px;
+margin-top: -9px;
+line-height: 25px;
+}
+.airportp3{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 12px;
+    
+}
+.airpotleftp4{
+    font-size:15.5px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #313131;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+.airportp5{
+    font-size:15px;
+    font-weight: 500;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    color: #1c1c1c;
+    width: 300px;
+    margin-top: -5px;
+    line-height: 18px;
+    }
+ .parking h2{
+    font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+    font-weight: 501;
+    text-align: center;
+    font-size: 1.29rem;
+    margin-top: 50px;
+ }   
+ .parking1{
+    display: contents;
+}
+.parking12{
+margin-left: 20px;
+}
+.parking11{
+    margin-left: 20px;
+    }
+.parkingp1{
+   font-size:14.6px;
+   font-weight: 500;
+   font-family: proxima-nova,Helvetica,Arial,sans-serif;
+   color: #1c1c1c;
+   width: 270px;
+   margin-top: -2px;
+   line-height: 25px;
+}
+.other1{
+    display: contents;
+}
+.other11{
+    margin-left: 20px;
+}
+.other12{
+    margin-left: 20px;
+}
+.other h2{
+   font-family: Tipperary eText Semibold,Helevtica,Arial,sans-serif;
+   font-weight: 501;
+   text-align: center;
+   font-size: 1.29rem;
+   margin-top: 50px;
+}
+.otherp2{
+   font-size:14.8px;
+   font-weight: 500;
+   font-family: proxima-nova,Helvetica,Arial,sans-serif;
+   color: #1c1c1c;
+   width: 200px;
+   line-height: 19.1px;
+   margin-top: -9px;
+}
+.otherp3{
+   font-size:14.8px;
+   font-weight: 500;
+   font-family: proxima-nova,Helvetica,Arial,sans-serif;
+   color: #1c1c1c;
+   width: 200px;
+   line-height: 19.1px;
+   margin-top: 2px;
+}
+.otherp4{
+   font-size:14.8px;
+   font-weight: 500;
+   font-family: proxima-nova,Helvetica,Arial,sans-serif;
+   color: #1c1c1c;
+   width: 200px;
+   line-height: 19.1px;
+   margin-top: 2px;
+}
+
+
+
+}
