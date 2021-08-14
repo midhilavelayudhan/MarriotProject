@@ -1,0 +1,115 @@
+.photoCardsRoot
+{
+    padding:3.75rem 0;
+    margin: 1.25rem 0;
+}
+.photoCardsHeading
+{
+    /* font-family: TipperaryeText Semibold,Helevtica,Arial,sans-serif; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align:center;
+    margin:0;
+    font-size: 2rem;
+    line-height:2.25rem;
+}
+.photoContainerGrid
+{
+    max-width: 73.75rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0 1.25rem;
+    margin-top:20px;
+
+}
+.photoImageCard
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0.625rem 0.9375rem;
+}
+.photocardMedia
+{
+    padding-top: 56.25%;
+}
+.photoIconButton
+{
+    padding-top:0px;
+    margin:0px;
+}
+.photoIconTitle
+{
+    font-weight: 600;
+    /* font-family: proxima-nova,Helvetica,Arial,sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin:0;
+}
+
+/* .photoModal
+{
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+    padding: "7rem 8rem";
+    
+}
+.modalMain
+{
+    padding: "3.75rem";
+    max-width: "73.75rem";
+    background: "#fff";
+    margin: "0 auto ";      
+    position: "relative";
+    z-index: "1045";
+    border-radius: ".25rem";
+    vertical-align: "middle";
+    text-align: "left";
+  }.
+
+.modalContentMain
+{
+    padding:"0";
+    max-width: "58.75rem";
+    position: "relative";
+    margin: "0 auto";
+}
+modalContentHeading
+{
+    margin-right: "1.5rem";
+    font-family: "Tipperary eText Semibold,Helevtica,Arial,sans-serif";
+    font-weight: "400";
+    text-transform: "uppercase";
+    margin: "0";
+    font-size: "2rem";
+    line-height:"2.25rem"; 
+}
+.modalContentPara
+{
+    margin-top: "3.75rem";
+    margin-bottom: "0";
+    font-weight: "600";
+    font-size: "1.25rem";
+    line-height: "1.25";
+    font-family: "proxima-nova,Helvetica,Arial,sans-serif"
+}
+.iconButton
+{
+    top: "3.25rem";
+    right: "3.25rem";
+    position: "absolute";
+}
+.closeIcon
+{
+    height: "2.75rem";
+    width: "2.75rem";
+    /* // color:"black", */
+    /* stroke:"black";
+    stroke-width:"1";
+    cursor:"pointer";
+  
+} */ 

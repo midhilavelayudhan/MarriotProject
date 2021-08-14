@@ -1,5 +1,5 @@
 import React from 'react'
-import PhotoHeading from './Components/PhotoHeading';
+import PhotoHeading from '../../Component/Photos/PhotoHeading'
 
 
 
