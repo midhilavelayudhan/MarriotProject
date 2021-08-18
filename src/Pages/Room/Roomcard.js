@@ -139,13 +139,13 @@ export default function Roomcard({roomDetails}){
                         <Typography>{rooms.room_details}</Typography>
                     </CardContent>
                     <CardActionArea>
-                        <Button variant="contained" color="primary" className={classes.roomButton}>CHECK RATES</Button>
+                        <Button variant="contained" color="primary" >CHECK RATES</Button>
                     </CardActionArea>
         
                  </Card> 
                  <Modal open={open}
                  onClose={handleroomModalclose}
-                 ><>
+                 className="mainmodal"><>
                 <div className="modalContent">
                 {roomDetails.map((item,index)=>{
                             return <>
@@ -241,6 +241,7 @@ export default function Roomcard({roomDetails}){
           </ul>
         </AccordionDetails>
       </Accordion>
+      
       </div>
       </div> 
       </>  
