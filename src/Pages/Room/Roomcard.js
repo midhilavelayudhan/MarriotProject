@@ -228,6 +228,7 @@ export default function Roomcard({roomDetails}){
           <Typography className={classes.secondaryHeading}>Details</Typography>
         </AccordionSummary>
         <AccordionDetails>
+            <div className="accordioncontent">
           <ul>
           
           <li>Room Features</li>
@@ -239,8 +240,105 @@ export default function Roomcard({roomDetails}){
           <li>Living room is separated</li>
           <li>Windows may be opened</li>
           </ul>
+          <ul>
+              <li>Accessible Room Features</li>
+              <li>This room type does not offer mobility accessible rooms</li>
+              <li>This room type offers accessible rooms with roll in showers</li>
+              <li>This room type does not offer hearing accessible rooms</li>
+          </ul>
+          </div>
         </AccordionDetails>
       </Accordion>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
+        >
+          <Typography className={classes.heading}>Room Amenities</Typography>
+          <Typography className={classes.secondaryHeading}>
+            Details
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <div className="accordioncontent">
+        <ul>
+          <div className="contents">
+          <li>Beds and Bedding</li>
+          <li>Maximum Occupancy: 3</li>
+          <li>1 King</li>
+          <li>Sofa bed</li>
+          <li>Rollaway beds not permitted</li>
+          <li>Cribs permitted: 1</li>
+          <li>Maximum cribs/rollaway beds permitted: 1</li>
+          <li>Pillowtop mattress</li>
+          </div>
+          <div className="contents">
+          
+
+          <li>Food & Beverages</li>
+          <li>Coffee maker / tea service</li>
+          </div>
+                
+          </ul>
+          <ul>
+          <div className="contents2">
+              <li>Bath and Bathroom Features</li>
+              <li>Bathtub and shower separate</li>
+              <li>Hair dryer</li>
+         </div>  
+         
+<li>Kitchen Features</li>
+<li>Pantry area</li>
+<li>Mini-refrigerator</li>
+<li>Microwave  </li>
+
+          </ul>
+          <ul>
+          <li>Furniture and Furnishings</li>
+          <li>Sofa</li>
+          <li>Chair, oversized</li>
+          <li>Alarm Clock</li>
+          <li>Fireplace</li>
+          <li>Desk, writing / work, with ergonomic chair, and electrical outlet</li>
+          <li>Iron and ironing board</li>
+          </ul>
+          </div>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel3bh-content"
+          id="panel3bh-header"
+        >
+          <Typography className={classes.heading}>In-room Media</Typography>
+          <Typography className={classes.secondaryHeading}>
+          Details
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <div className="accordioncontent">
+          <ul>
+          
+          <li>Internet and Phones</li>
+          <li>Phones: 2</li>
+          <li>Phone features: voicemail, and phone lines (2)</li>
+          <li>High speed Internet, for a fee</li>
+          <li>Wireless Internet, complimentary</li>
+          </ul>
+          <ul>
+              <li>Entertainment</li>
+              <li>TV features: remote control, largest 27in/69cm</li>
+              <li>TVs: 2</li>
+              <li>Premium movie channels</li>
+              <li>Cable/satellite</li>
+              <li>CNN, ESPN, and HBO</li>
+              <li>Radio</li>
+          </ul>
+          </div>
+           </AccordionDetails>
+            </Accordion>
       
       </div>
       </div> 

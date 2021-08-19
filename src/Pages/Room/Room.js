@@ -51,22 +51,36 @@ export default function Room() {
                  <Roomcard roomDetails={roomDetails} modalImages={roomDetails.modal_images}/>
                 <Paper elevation={0} className={classes.roompaper}>
                 <Typography variant="h5" className={classes.roomheading2} gutterBottom>A SPACIOUS MINI-SUITE AWAITS YOU</Typography>
-                    <ul className='room_list'>
-                        {roomList.map((lists)=>{
-
-                            return <li className='room_list_details'>
-                              <div > 
-                            <Typography  className={classes.roomlist}>{lists}</Typography>
-                            </div> 
-                        </li>
-                        
-                        })
-                        }
-                        
-                    </ul>    
+                <div className="miniSuites">
+                <div className="suitecontent">
+                <ul>
+          
+          <li>Every room includes microwave, refrigerator and wet bar with sink</li>
+          <li>All Suites have LG 37 inch Flat Screen televisions</li>
+          <li>This hotel has a smoke-free policy</li>
+          
+          </ul>
+          </div>
+          <div className="suitecontent">
+          <ul>
+              <li>Work desk and sofa bed gives you extra space to work</li>
+              <li>All suites offer complimentary High Definition Programming</li>
+              <li>Book 10 or more rooms at this hotel</li>
+              
+          </ul> 
+          </div>
+          <div className="suitecontent">
+          <ul>
+              <li>Hair dryer, iron and board, coffee and tea</li>
+              <li>Complimentary wireless Internet in all guestrooms and public areas</li>
+              
+              
+          </ul> 
+          </div>
+          </div>
                 </Paper> 
                 <Paper>
-                    <Typography>Check Room Rates & Availability</Typography>
+                    <Typography >Check Room Rates & Availability</Typography>
                 </Paper>
 
             </Grid>

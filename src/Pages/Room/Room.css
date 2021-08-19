@@ -11,7 +11,7 @@
 .notebox{
     border: 1px solid silver;
     height: 80px;
-    width:100%;
+    width:1178px;
     margin-bottom: 80px;
     padding: 20px 0 20px 10px;
     
@@ -60,9 +60,9 @@ overflow:auto;
 background-color:rgb(0,0,0);
 background-color:rgba(0,0,0,0.4) */
 }
-li{
+/* li{
   list-style: none;
-}
+} */
 /*
 .slider {
    position: relative;
@@ -233,4 +233,35 @@ li{
   position:relative;
   bottom:260px;
   margin-top: 400px;
+  
+}
+.accordioncontent{
+  display:flex;
+  padding-left: 30px;
+}
+.accordioncontent ul{
+  margin-right: 250px;
+}
+.accordioncontent ul li{
+  list-style: none;
+}
+.contents{
+  margin-bottom: 10px;
+}
+.contents2{
+  margin-bottom: 150px;;
+}
+.miniSuites{
+  display: flex;
+  
+  margin-top: 50px;
+  padding-left: 200px;
+
+}
+.suitecontent{
+ margin-right: 100px;
+}
+.suitecontent ul li{
+  margin-bottom: 20px;
+  
 }
