@@ -79,10 +79,7 @@ export default function Room() {
           </div>
           </div>
                 </Paper> 
-                <Paper>
-                    <Typography >Check Room Rates & Availability</Typography>
-                </Paper>
-
+                
             </Grid>
              
             
